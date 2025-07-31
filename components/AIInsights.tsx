@@ -55,7 +55,7 @@ const AIInsights = () => {
     // Check if answer is already loading or exists
     const existingAnswer = aiAnswers.find((a) => a.insightId === insight.id);
     if (existingAnswer) {
-      // Remove the answer if it already exists (toggle functionality)
+     
       setAiAnswers((prev) => prev.filter((a) => a.insightId !== insight.id));
       return;
     }
@@ -71,10 +71,10 @@ const AIInsights = () => {
     ]);
 
     try {
-      // Generate question based on insight title and action
+    
       const question = `${insight.title}: ${insight.action}`;
 
-      // Use server action to generate AI answer
+    
       const answer = await generateInsightAnswer(question);
 
       setAiAnswers((prev) =>
