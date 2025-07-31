@@ -79,7 +79,7 @@ const ContactPage = () => {
                   respond within 24 hours.
                 </p>
                 <a
-                  href='mailto:support@expensetracker-ai.com'
+                  href='mailto:gargjayant2@gmail.com'
                   className='inline-flex items-center gap-2 text-emerald-600 dark:text-emerald-400 hover:text-emerald-700 dark:hover:text-emerald-300 font-medium transition-colors duration-200 text-sm sm:text-base break-all sm:break-normal'
                 >
                   <span className='hidden sm:inline'>
