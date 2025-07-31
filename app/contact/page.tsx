@@ -128,7 +128,7 @@ const ContactPage = () => {
                   partnership discussions.
                 </p>
                 <div className='text-emerald-600 dark:text-emerald-400 font-medium text-sm sm:text-base'>
-                  Jayant's virtual office
+                  Jayant@apos;s virtual office
                   <br />
                  Patiala, Punjab
                 </div>
